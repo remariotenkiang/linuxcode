@@ -3,9 +3,7 @@
 i=0
 
 while [ $i -le 2 ]
-
 do
-echo "it will print out"
-echo "Number: $i"
+echo Number: $i
 ((i++))
 done
